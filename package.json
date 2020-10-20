@@ -1,0 +1,27 @@
+{
+  "name": "rpt24-mvp",
+  "version": "1.0.0",
+  "description": "Baseball Statistics Database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanmkc/rpt24-mvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanmkc/rpt24-mvp/issues"
+  },
+  "homepage": "https://github.com/nathanmkc/rpt24-mvp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
