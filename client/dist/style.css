@@ -10,7 +10,7 @@
   border-radius: 15px;
 }
 
-.viewPlayersButton {
+.viewPlayersButton, .addPositionalButton {
   float: right;
   margin-right: 3px;
 }

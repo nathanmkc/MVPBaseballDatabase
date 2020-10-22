@@ -1,3 +1,5 @@
+import AddPositionalPage from './AddPositionalPage.jsx'
+
 class AddPositionalButton extends React.Component {
   constructor(props) {
     super(props)
@@ -7,16 +9,16 @@ class AddPositionalButton extends React.Component {
 
   handleClick () {
     ReactDOM.unmountComponentAtNode(document.getElementById('app'));
-    // ReactDOM.render(
-    //   <AddPlayerPage />,
-    //   document.getElementById('app')
-    // )
+    ReactDOM.render(
+      <AddPositionalPage />,
+      document.getElementById('app')
+     )
   }
 
 
   render() {
     return (
-      <button onClick={this.handleClick}>Add Positional Player</button>
+      <button onClick={this.handleClick} className="addPositionalButton">Add Positional Player</button>
     )
   }
 }

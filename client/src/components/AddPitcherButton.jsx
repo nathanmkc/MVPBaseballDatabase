@@ -1,3 +1,5 @@
+import AddPitcherPage from './AddPitcherPage.jsx'
+
 class AddPitcherButton extends React.Component {
   constructor(props) {
     super(props)
@@ -7,10 +9,10 @@ class AddPitcherButton extends React.Component {
 
   handleClick () {
     ReactDOM.unmountComponentAtNode(document.getElementById('app'));
-    // ReactDOM.render(
-    //   <AddPlayerPage />,
-    //   document.getElementById('app')
-    // )
+    ReactDOM.render(
+      <AddPitcherPage />,
+      document.getElementById('app')
+    )
   }
 
 
