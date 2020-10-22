@@ -20,6 +20,23 @@
   font-family: "Comic Sans MS";
 }
 
+input {
+  width: 30px;
+}
+
+form {
+  width: 40%;
+  text-align: left;
+}
+
+input.nameInput {
+  width: 120px;
+}
+
+input.submitButton {
+  width: 60px;
+}
+
 .welcome button{
   width: 49%;
   height: 300px;

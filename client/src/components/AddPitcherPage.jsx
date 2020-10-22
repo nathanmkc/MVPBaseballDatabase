@@ -53,7 +53,7 @@ class AddPitcherPage extends React.Component {
           <form onSubmit={this.handleSubmit}>
             <label>
               Name:
-              <input type="text" name="name" value={this.state.name} onChange={this.handleChange} />
+              <input type="text" name="name" className="nameInput" value={this.state.name} onChange={this.handleChange} />
             </label><br></br>
             <label>
               Team:
@@ -154,7 +154,7 @@ class AddPitcherPage extends React.Component {
               Strike Outs:
               <input type="text" name="strikeOuts" value={this.state.strikeOuts} onChange={this.handleChange} />
             </label><br></br>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" className="submitButton" />
           </form>
         </div>
       </div>
