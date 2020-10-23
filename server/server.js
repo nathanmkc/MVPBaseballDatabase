@@ -21,10 +21,34 @@ app.post('/pitcher', (req, res) => {
   res.send('Pitcher succesfully added to the database.');
 })
 
+app.get('/pitcher', (req, res) => {
+  var queryString = 'SELECT * FROM Pitchers';
+  db.query(queryString, (err, results) => {
+    if (err) {
+      throw err;
+    } else {
+      console.log(results);
+      res.send(results);
+    }
+  })
+})
+
 app.post('/positional', (req, res) => {
   var queryString = 'INSERT INTO Positionals SET ?';
   db.query(queryString, req.body)
   res.send('Positional player succesfully added to the database.');
+})
+
+app.get('/positional', (req, res) => {
+  var queryString = 'SELECT * FROM Positionals';
+  db.query(queryString, (err, results) => {
+    if (err) {
+      throw err;
+    } else {
+      console.log(results);
+      res.send(results);
+    }
+  })
 })
 
 app.listen(3000, () => {
