@@ -33,6 +33,10 @@ input.nameInput {
   width: 120px;
 }
 
+div.welcome.table {
+  width: 1000px;
+}
+
 input.submitButton {
   width: 60px;
 }
@@ -43,4 +47,20 @@ input.submitButton {
   font-family: "Comic Sans MS";
   font-size: 20pt;
   margin-bottom: 5px;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+th {
+  border-style: solid;
+  padding: 3px;
+}
+
+td {
+  border-style: double;
+  padding: 3px;
 }

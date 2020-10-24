@@ -17,7 +17,7 @@ class ViewPlayersButton extends React.Component {
 
   render () {
     return (
-      <button className="viewPlayersButton" onClick={this.handleClick}>Enter Player Database</button>
+      <button className="viewPlayersButton" onClick={this.handleClick}>View Player Database</button>
     )
   }
 }

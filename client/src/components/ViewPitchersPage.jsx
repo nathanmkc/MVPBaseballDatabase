@@ -7,7 +7,7 @@ class ViewPitchersPage extends React.Component {
 
   render() {
     return (
-      <div className="welcome">
+      <div className="welcome table">
         <div>
           <h1>Pitchers</h1>
         </div>

@@ -5,7 +5,7 @@ class AddPitcherPage extends React.Component {
     super(props);
     this.state = {
       name: 'name',
-      team: 'team',
+      team: 'ARI',
       wins: 0,
       losses: 0,
       games: 0,

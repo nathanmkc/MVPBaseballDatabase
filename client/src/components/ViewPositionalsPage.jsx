@@ -7,7 +7,7 @@ class ViewPositionalsPage extends React.Component {
 
   render() {
     return (
-      <div className="welcome">
+      <div className="welcome table">
         <div>
           <h1>Positional Players</h1>
         </div>

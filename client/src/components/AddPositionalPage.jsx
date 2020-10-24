@@ -5,8 +5,8 @@ class AddPositionalPage extends React.Component {
     super(props);
     this.state = {
       name: 'name',
-      position: 'position',
-      team: 'team',
+      position: 'C',
+      team: 'ARI',
       games: 0,
       atBats: 0,
       runs: 0,
