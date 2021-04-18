@@ -27,7 +27,6 @@ app.get('/pitcher', (req, res) => {
     if (err) {
       throw err;
     } else {
-      console.log(results);
       res.send(results);
     }
   })
@@ -45,7 +44,6 @@ app.get('/positional', (req, res) => {
     if (err) {
       throw err;
     } else {
-      console.log(results);
       res.send(results);
     }
   })
