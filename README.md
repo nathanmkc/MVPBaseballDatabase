@@ -3,23 +3,23 @@
 > Light-weight app for adding baseball players and their stats into a mySQL database, and then be able to view those players based on if they are pitchers or positional players.
 
 ## Setup ##
-  > With a mySQL database up and running locally, run
+  > To create a database called Baseball with the proper schema, first make sure you have a mySQL server up and running, then run
   ```
 npm run db:setup
 ```
-to create a database called Baseball with the proper schema. run
+  > To install node modules, run
 ```
 npm install
 ```
-to install node modules, then run
+  > To have webpack create the bundle.js file, run
 ```
 npm run build
 ```
-to have webpack create the bundle.js file. Finally, run
+  > Finally, to start your express server run
 ```
 npm start
 ```
-to start up your express server and point your browser to localhost:3000
+  > Your app is now running on localhost:3000
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
