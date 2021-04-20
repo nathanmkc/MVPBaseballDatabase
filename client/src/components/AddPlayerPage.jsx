@@ -1,5 +1,6 @@
 import AddPitcherButton from './AddPitcherButton.jsx';
 import AddPositionalButton from './AddPositionalButton.jsx';
+import React from 'react';
 
 class AddPlayerPage extends React.Component {
   constructor(props) {

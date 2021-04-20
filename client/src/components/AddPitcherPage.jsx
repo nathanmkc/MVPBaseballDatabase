@@ -1,4 +1,5 @@
 import WelcomeBox from './WelcomeBox.jsx';
+import React from 'react';
 
 class AddPitcherPage extends React.Component {
   constructor(props) {

@@ -1,4 +1,5 @@
-import PositionalPlayerList from './PositionalPlayerList.jsx'
+import PositionalPlayerList from './PositionalPlayerList.jsx';
+import React from 'react';
 
 class ViewPositionalsPage extends React.Component {
   constructor(props) {

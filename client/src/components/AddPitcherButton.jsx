@@ -1,4 +1,5 @@
-import AddPitcherPage from './AddPitcherPage.jsx'
+import AddPitcherPage from './AddPitcherPage.jsx';
+import React from 'react';
 
 class AddPitcherButton extends React.Component {
   constructor(props) {

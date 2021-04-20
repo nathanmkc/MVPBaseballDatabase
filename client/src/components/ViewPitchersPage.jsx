@@ -1,4 +1,5 @@
-import PitcherList from './PitcherList.jsx'
+import PitcherList from './PitcherList.jsx';
+import React from 'react';
 
 class ViewPitchersPage extends React.Component {
   constructor(props) {

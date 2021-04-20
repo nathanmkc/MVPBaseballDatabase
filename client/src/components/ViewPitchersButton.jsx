@@ -1,4 +1,5 @@
-import ViewPitchersPage from './ViewPitchersPage.jsx'
+import ViewPitchersPage from './ViewPitchersPage.jsx';
+import React from 'react';
 
 class ViewPitchersButton extends React.Component {
   constructor(props) {

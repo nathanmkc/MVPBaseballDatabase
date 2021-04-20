@@ -1,5 +1,6 @@
 import ViewPitchersButton from './ViewPitchersButton.jsx';
 import ViewPositionalsButton from './ViewPositionalsButton.jsx';
+import React from 'react';
 
 class ViewPlayerPage extends React.Component {
   constructor(props) {

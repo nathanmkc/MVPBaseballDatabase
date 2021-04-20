@@ -1,4 +1,6 @@
 import AddPlayerPage from './AddPlayerPage.jsx';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 class AddPlayerButton extends React.Component {
   constructor(props) {

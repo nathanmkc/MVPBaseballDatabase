@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Pitcher(props) {
   return (
       <tr>
@@ -27,7 +29,7 @@ function Pitcher(props) {
 function PitcherList(props) {
   const pitchers = props.pitchers;
   const pitcherBoxes = pitchers.map((pitcher) =>
-    <Pitcher key={pitcher.id} {pitcher} />
+    <Pitcher key={pitcher.id} {...pitcher} />
   );
   return (
     <table cellPadding="0" cellSpacing="0">

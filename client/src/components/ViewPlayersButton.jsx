@@ -1,4 +1,5 @@
 import ViewPlayersPage from './ViewPlayersPage.jsx';
+import React from 'react';
 
 class ViewPlayersButton extends React.Component {
   constructor(props) {

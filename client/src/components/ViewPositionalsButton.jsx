@@ -1,4 +1,5 @@
-import ViewPositionalsPage from './ViewPositionalsPage.jsx'
+import ViewPositionalsPage from './ViewPositionalsPage.jsx';
+import React from 'react';
 
 class ViewPositionalsButton extends React.Component {
   constructor(props) {

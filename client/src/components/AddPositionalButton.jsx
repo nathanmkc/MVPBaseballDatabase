@@ -1,4 +1,5 @@
-import AddPositionalPage from './AddPositionalPage.jsx'
+import AddPositionalPage from './AddPositionalPage.jsx';
+import React from 'react';
 
 class AddPositionalButton extends React.Component {
   constructor(props) {

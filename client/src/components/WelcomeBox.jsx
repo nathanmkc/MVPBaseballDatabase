@@ -1,5 +1,6 @@
 import AddPlayerButton from './AddPlayerButton.jsx';
 import ViewPlayersButton from './ViewPlayersButton.jsx';
+import React from 'react';
 
 class WelcomeBox extends React.Component {
   constructor(props) {
